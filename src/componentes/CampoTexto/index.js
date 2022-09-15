@@ -2,11 +2,12 @@ import './CampoTexto.css'
 
 
 const CampoTexto = (props) => {
-    console.log(props)
-    return(
+        return(
         <div className="campo-texto"> 
-            <label>Nome</label>
-            <input placeholder='Digite seu nome' />
+            <label>
+                {props.label}
+            </label>
+            <input placeholder={props.placeholder} />
         </div>
     )
 
