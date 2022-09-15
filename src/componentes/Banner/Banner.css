@@ -1,6 +1,8 @@
 .banner
 {
- background: url("/public/imagens/fundofu.jpg");
+  margin : 20px ;
+ /*background: url("/public/imagens/fundofu.jpg");*/
+ background-color: #6278f7;
  text-align: center;
 }
 .banner img 
