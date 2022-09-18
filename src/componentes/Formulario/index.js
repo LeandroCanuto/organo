@@ -26,6 +26,10 @@ const aoSalvar = (evento) => {
         time
     })
     
+    setNome('')
+    setCargo('')
+    setImagem('')
+    setTime('')
    
    
     
